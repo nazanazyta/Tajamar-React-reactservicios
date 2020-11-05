@@ -3,6 +3,7 @@ var Global = {
   urlcoches: "https://apicochespaco.azurewebsites.net/",
   urldepar: "https://apidepartamentospgs.azurewebsites.net/",
   urlemple: "https://apiempleadosfullstack.azurewebsites.net/",
+  urlcruddept: "https://apicruddepartamentoscore.azurewebsites.net/"
 };
 
 export default Global;
