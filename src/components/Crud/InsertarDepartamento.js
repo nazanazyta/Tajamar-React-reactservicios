@@ -15,8 +15,6 @@ export default class InsertarDepartamento extends Component {
         , status: false
     }
 
-
-
     nuevoDepartamento = (e) => {
         e.preventDefault();
         var num = parseInt(this.cajaNumeroRef.current.value);

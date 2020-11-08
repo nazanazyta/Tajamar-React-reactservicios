@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 
 export default class MenuDepartamentos extends Component {
     render() {
@@ -11,23 +12,10 @@ export default class MenuDepartamentos extends Component {
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item active">
-                            <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
+                            <NavLink className="nav-link" to="/">Home <span className="sr-only">(current)</span></NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/create">Nuevo departamento</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="/">Pricing</a>
-                        </li>
-                        <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" href="/" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-expanded="false"> {/* aria-haspopup="true" */}
-                            Dropdown link
-                            </a>
-                            <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a className="dropdown-item" href="/">Action</a>
-                            <a className="dropdown-item" href="/">Another action</a>
-                            <a className="dropdown-item" href="/">Something else here</a>
-                            </div>
+                            <NavLink className="nav-link" to="/create">Nuevo departamento</NavLink>
                         </li>
                     </ul>
                 </div>

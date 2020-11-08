@@ -12,7 +12,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import Popper from "popper.js";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 // import Departamentos from './../Crud/Departamentos';
-import MenuDepartamentos from './../Crud/MenuDepartamentos';
+// import MenuDepartamentos from './../Crud/MenuDepartamentos';
 import Router from './../Router';
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
       {/* <Router />
       <hr />
       <EmpleadosRouter /> */}
-      <MenuDepartamentos />
+      {/* <MenuDepartamentos /> */}
       {/* <Departamentos /> */}
       <Router />
     </div>
